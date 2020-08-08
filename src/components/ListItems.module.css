@@ -1,0 +1,33 @@
+.list {
+  color: #fff;
+  width: 300px;
+  background-color: rgb(219, 17, 186);
+  height: 50px;
+  margin: 20px auto;
+  border-radius: 5px;
+}
+.list:hover {
+  background-color: rgb(166, 194, 194);
+}
+.list p {
+  padding: 10px;
+  position: relative;
+}
+.list p span {
+  position: absolute;
+  right: 10px;
+  cursor: pointer;
+}
+
+.icon {
+  margin: 0 5px;
+  font-size: 15px;
+}
+
+.list p input {
+  background-color: transparent;
+  border: 0;
+  color: #fff;
+  font-size: 18px;
+  outline: none;
+}

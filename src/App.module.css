@@ -1,0 +1,38 @@
+body {
+  background-color: rgb(235, 210, 210);
+}
+.App {
+  /* background-color: gray; */
+  background-image: url(../src/Img/todoImg.jpg);
+  background-position: center;
+
+  min-height: 500px;
+  width: 400px;
+  margin: 40px auto;
+}
+.toDoForm input {
+  background-color: rgb(209, 222, 226);
+  border: 0;
+  width: 200px;
+  height: 50px;
+  padding: 0 20px;
+  margin: 20px;
+  font-size: 18px;
+  border-radius: 10px;
+  color: #fff;
+}
+.toDoForm input::placeholder {
+  color: lightslategray;
+}
+.toDoForm input:focus {
+  outline: none;
+}
+.toDoForm button {
+  height: 50px;
+  width: 80px;
+  border-radius: 5px;
+  border: 0;
+  background-color: cyan;
+  cursor: pointer;
+  outline: none;
+}
