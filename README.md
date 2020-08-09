@@ -1,14 +1,14 @@
 
-# Food-delivery-system
-This app is made using Bootstrap,react.js and redux
+# Todo App
+This app is made using html,css,react.js
 You can start the App using npm start
 
 ## Features
 ```
-1. Select Restorent by name () in the input box of home page.
-2. It will go to the Listing page where you can add some items.
-3. it goes to the cart if you are logedin with (userName:admin, password:admin)
-4. there you can remove the items from the cart and you will get the total price.
+1. you can add data to the list by typing in input.
+2. you can delete the data from list.
+3. you can update the data by clicking on the same.
+4. you can add as much todo as you can
 ```
 
 
